@@ -6,8 +6,8 @@ from trie_lexicon import TrieLexicon
 import time
 
 language = 'en'
-character_distribution = 'scrabble_letter_distribution-{}.txt'.format(language)
-vocabulary = 'vocab_{}-cleaned.txt'.format(language)
+character_distribution = 'resources/scrabble_letter_distribution-{}.txt'.format(language)
+vocabulary = 'resources/vocab_{}-cleaned.txt'.format(language)
 
 print('Setting up lexicon ...')
 start_time = time.time()
